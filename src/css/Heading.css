@@ -1,0 +1,20 @@
+.main-heading {
+  font-family: "Righteous";
+  color: black;
+  font-size: 90px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.sub-heading {
+  font-family: "Pristina";
+  color: #beb5b5;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-left: 70px;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 360px) {
+  .main-heading {
+    color: white;
+  }
+}

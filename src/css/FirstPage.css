@@ -1,0 +1,162 @@
+.logo-background {
+  position: absolute;
+  top: -180px;
+  left: -180px;
+  overflow: hidden;
+  z-index: -2;
+}
+.logo-text {
+  width: fit-content;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #ffd800;
+  font-family: Righteous;
+  font-size: 30px;
+  z-index: -1;
+}
+.navigation {
+  position: absolute;
+  display: flex;
+  top: 18px;
+  right: 60px;
+}
+.naviagation-list {
+  font-family: Raleway;
+  margin: 30px;
+  cursor: pointer;
+}
+.main-text-text1 {
+  font-size: 70px;
+  color: black;
+}
+.main-text-text2 {
+  font-size: 80px;
+  color: #ffd800;
+}
+.main-text {
+  font-family: Righteous;
+  margin-top: 3%;
+  margin-left: 23%;
+  top: 120px;
+  left: 300px;
+}
+.description {
+  margin-left: 23%;
+  width: 400px;
+  color: grey;
+  text-align: left;
+}
+.btn {
+  cursor: pointer;
+  border: none;
+  width: 160px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #ffd800;
+  color: black;
+  font-family: Righteous;
+  font-size: 17px;
+  margin-left: 23%;
+  margin-top: 15px;
+}
+.main-image {
+  position: absolute;
+  top: 80px;
+  right: 60px;
+}
+
+.main-image-girl {
+  overflow-x: hidden;
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  overflow: hidden;
+  width: 350px;
+  height: auto;
+}
+.main-image-img {
+  height: 550px;
+}
+.Articles-rendering {
+  box-sizing: border-box;
+  margin-top: 150px;
+  padding: 30px;
+
+  width: 100%;
+  height: fit-content;
+}
+
+@media only screen and (max-width: 1236px) {
+  .logo-background {
+    display: none;
+  }
+  .main-text-text1 {
+    font-size: 5.557291666666667vw;
+  }
+
+  .main-text-text2 {
+    font-size: 6.208333333333333vw;
+  }
+  .main-image {
+    top: 10.41vw;
+  }
+  .main-text {
+    margin: 60px;
+    margin-bottom: 20px;
+  }
+  .description {
+    margin-left: 60px;
+
+    width: 370px;
+    font-size: 1.95vw;
+  }
+  .btn {
+    margin-left: 60px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .logo-background {
+    display: none;
+  }
+  .logo-text {
+    font-size: 6vw;
+    top: 2px;
+    left: 2px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .navigation {
+    top: 10px;
+    left: 50vw;
+  }
+  .main-image {
+    display: none;
+  }
+  .naviagation-list {
+    font-size: 3w;
+    margin: 5px;
+  }
+  .main-text {
+    margin: 60px;
+    margin-bottom: 10px;
+  }
+  .main-text-text1 {
+    font-size: 12vw;
+  }
+  .main-text-text2 {
+    font-size: 14vw;
+  }
+  .description {
+    width: 67vw;
+    margin-left: 60px;
+    font-size: 4.5vw;
+  }
+  .btn {
+    margin-left: 60px;
+  }
+  .Articles-rendering {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+}

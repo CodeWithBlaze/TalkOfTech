@@ -1,0 +1,16 @@
+.fa-twitter:hover {
+  transform: scale(1.5);
+  color: #0000ff;
+}
+.fa-facebook-square:hover {
+  transform: scale(1.5);
+  color: #0000ff;
+}
+.fa-envelope:hover {
+  transform: scale(1.5);
+  color: tomato;
+}
+.fa-user-secret:hover {
+  transform: scale(1.5);
+  color: red;
+}

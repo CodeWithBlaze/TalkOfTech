@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Article from './Section/Articles';
+import {Route,Switch} from 'react-router-dom';
+import FirstPage from './Pages/FirstPage';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+  return <div>
+   <div className="Routing">
+     <Switch>
+       <Route path="/article/:id" component={Article}/>
+          <Route path="/" component={FirstPage}/>
+     </Switch>
+          
+      </div>
     </div>
-  );
+    
 }
 
 export default App;
