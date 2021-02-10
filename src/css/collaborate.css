@@ -1,0 +1,152 @@
+.background-image-container {
+  background-color: #262335;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  background-image: url("../images/bgggg.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+}
+.text-container-collaborate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.small-text {
+  font-size: 30px;
+  margin-left: 80px;
+  margin-bottom: 5px;
+}
+.large-text {
+  font-size: 90px;
+  margin-left: 80px;
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+.email-box-collab {
+  margin-left: 90px;
+  width: 450px;
+  height: 45px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: none;
+  padding-left: 30px;
+  font-size: 15px;
+}
+.email-button-collab {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 15px;
+  width: 170px;
+  height: 46px;
+  border: none;
+  background-color: #ffd700;
+  color: white;
+}
+.email-container-collab {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox-container {
+  margin-left: 90px;
+  margin-top: 12px;
+}
+.checkbox-text {
+  margin: 10px;
+  margin-top: 0px;
+  font-size: 12px;
+  font-family: Raleway;
+}
+.link-terms {
+  color: blue;
+  margin: 5px;
+  font-family: Raleway;
+  font-size: 12px;
+}
+.terms-and-aggrement-container {
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.policy-text {
+  width: 100%;
+  min-height: 400px;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.heading-terms-and-conditions {
+  color: white;
+  text-align: center;
+}
+.div-terms-block {
+  display: flex;
+  padding: 25px;
+}
+.div-term-1 {
+  text-align: center;
+  font-family: Raleway;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.article-terms {
+  line-height: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.footer {
+  color: red;
+  padding: 5px;
+  padding-bottom: 15px;
+  font-size: 12px;
+  font-family: Raleway;
+  text-align: center;
+}
+@media only screen and (max-width: 980px) {
+  .text-container-collaborate {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .email-container-collab {
+    width: 100%;
+    margin-left: 0px;
+    flex-direction: column;
+  }
+  .email-box-collab {
+    width: 300px;
+    margin: 15px;
+    border-radius: 5px;
+  }
+  .small-text {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .large-text {
+    margin-left: 0px;
+    text-align: center;
+    font-size: 60px;
+  }
+  .checkbox-container {
+    margin-left: 0;
+    padding-left: 18px;
+    text-align: center;
+  }
+  .div-terms-block {
+    flex-wrap: wrap;
+  }
+}

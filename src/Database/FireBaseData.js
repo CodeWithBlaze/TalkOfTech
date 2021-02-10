@@ -12,7 +12,18 @@ async function getArticleFromDatabase(id){
         return data.docs;
     })
 }
+async function getDataSearched(query) {
+    return database.collection('Articles').where('title','>=',query).get().then(data=>{
+        let arr=[];
+        data.docs.forEach(articles=>{
+            arr.push({id:articles.id,content:articles.data()})
+        });
+        return arr;
+    })
+    
+}
 export {
     getDataFromDatabase,
     getArticleFromDatabase,
+    getDataSearched,
 } ;

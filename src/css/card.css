@@ -3,6 +3,7 @@
   height: 400px;
   box-shadow: 0px 0px 8px #888888;
   margin: 20px;
+  background-color: white;
 }
 a {
   text-decoration: none;
@@ -18,14 +19,17 @@ a {
   background-repeat: no-repeat;
 }
 .title {
-  font-family: "FF Tisa Sans";
+  font-family: Raleway;
+  font-weight: bold;
+  text-align: center;
   padding: 25px;
   padding-top: 7px;
   padding-bottom: 0px;
 }
 .content {
   color: #beb5b5;
-  font-family: "Ubuntu";
+  font-family: "Alegreya";
+  text-align: center;
   line-break: auto;
   font-size: 15px;
   padding: 25px;

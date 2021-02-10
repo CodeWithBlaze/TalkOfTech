@@ -1,11 +1,11 @@
 h1 {
-  font-family: "FF Tisa Sans";
+  font-family: Raleway;
 }
 h2 {
-  font-family: "FF Tisa Sans";
+  font-family: Raleway;
 }
 h3 {
-  font-family: "FF Tisa Sans";
+  font-family: Raleway;
 }
 .img-design {
   margin-right: 20px;
@@ -18,7 +18,8 @@ h3 {
   display: flex;
 }
 .article-box {
-  font-family: "Ubuntu";
+  font-family: "Alegreya";
+  font-weight: 200;
   box-shadow: 0px 0px 8px #888888;
   flex: 2;
   height: fit-content;
@@ -39,4 +40,62 @@ h3 {
   width: 100%;
   height: 100%;
   margin: 0px;
+}
+
+@media only screen and (max-width: 980px) {
+  #Articles-page h2 {
+    text-align: center;
+  }
+  #Articles-page h3 {
+    text-align: center;
+  }
+  #Articles-page div {
+    text-align: center;
+    font-weight: 300;
+  }
+  #Articles-page .article-container {
+    order: 2 !important;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Articles-page .article-box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  #Articles-page .ads-sense {
+    padding: 5px;
+  }
+
+  #Articles-page img {
+    width: 100% !important ;
+
+    overflow: hidden;
+    flex-direction: column;
+    height: auto !important;
+  }
+  #Articles-page iframe {
+    width: 100% !important;
+    height: auto !important;
+  }
+  #Articles-page li {
+    text-align: left;
+    font-family: "Alegreya", serif !important;
+    margin: 5px;
+    padding: 0px;
+  }
+  #Articles-page .ads-sense {
+    display: flex;
+    justify-content: space-around;
+  }
+  #Articles-page .ad-image {
+    width: 360px;
+    height: fit-content;
+  }
 }
