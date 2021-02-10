@@ -1,15 +1,16 @@
 import firebase from 'firebase/app';
 import '@firebase/firestore';
 var firebaseConfig = {
-    apiKey: "AIzaSyD8ysISqU6kc9toXwFGg7aHpWy4_pEq3Cc",
-    authDomain: "talk-of-tech.firebaseapp.com",
-    projectId: "talk-of-tech",
-    storageBucket: "talk-of-tech.appspot.com",
-    messagingSenderId: "985591044163",
-    appId: "1:985591044163:web:a9916f42ed926e2f00dcf6",
-    measurementId: "G-DKQ56SDV54"
-  };
-  // Initialize Firebase
-let database=firebase.initializeApp(firebaseConfig);
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER,
+  appId: process.env.REACT_APP_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID
+};
+
+// Initialize Firebase
+let database = firebase.initializeApp(firebaseConfig);
 //firebase.analytics();
 export default database.firestore();
