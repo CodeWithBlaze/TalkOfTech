@@ -39,6 +39,7 @@
 .main-text-text1 {
   font-size: 70px;
   color: black;
+  
 }
 .main-text-text2 {
   font-size: 80px;
@@ -48,8 +49,20 @@
   font-family: Righteous;
   margin-top: 3%;
   margin-left: 23%;
-  top: 120px;
-  left: 300px;
+  
+  animation: Maintextanimation 1s ease-in-out;
+
+}
+@keyframes Maintextanimation{
+  0%{
+    margin-top: 0px;
+  }
+  50%{
+    margin-top: 5%;
+  }
+  100%{
+   margin-top:3%;
+  }
 }
 .description {
   margin-left: 23%;
@@ -57,6 +70,7 @@
   color: grey;
   text-align: left;
   font-family: Raleway;
+  animation:btnanimation 1s ease-out;
 }
 .btn {
   cursor: pointer;
@@ -70,13 +84,39 @@
   font-size: 17px;
   margin-left: 23%;
   margin-top: 15px;
+  animation-name: btnanimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+@keyframes btnanimation{
+  0%{
+    margin-left: 0px;
+  }
+  50%{
+    margin-left: 25%;
+  }
+  100%{
+    margin-left: 23%;
+  }
 }
 .main-image {
   position: absolute;
   top: 80px;
-  right: 60px;
-}
+  right: 30px;
+  animation: main_image 1s ease-in-out;
 
+}
+@keyframes main_image{
+  0%{
+    right:-30%;
+  }
+  50%{
+    right:80px;
+  }
+  100%{
+    right:30px;
+  }
+}
 .main-image-girl {
   overflow-x: hidden;
   position: absolute;
@@ -126,19 +166,22 @@
   }
   .main-image {
     top: 10.41vw;
+    animation: none!important;
   }
   .main-text {
     margin: 60px;
     margin-bottom: 20px;
+    animation: none!important;
   }
   .description {
     margin-left: 60px;
-
+    animation: none!important;
     width: 370px;
     font-size: 1.95vw;
   }
   .btn {
     margin-left: 60px;
+    animation: none!important;
   }
 }
 @media only screen and (max-width: 980px) {
