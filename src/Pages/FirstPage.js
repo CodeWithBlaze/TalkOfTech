@@ -103,10 +103,10 @@ function FirstPage() {
 
     </div>
     <div className="description">
-      Learn Tech content in an easy way.
-      Get the practical knowledge and become part
-      of the tech we use daily.It's not that we use
-      Technology,we live Technology
+      Learn Tech in an easy way with our articles.
+      Read Learn and Join to share your knowledge
+      with world.Collaborate with us and start writing
+      articles with our automated blog maker no coding experience required
     </div>
     <a href="#articles" ><button className="btn">Get Started</button></a>
     <div className="main-image">
@@ -119,7 +119,7 @@ function FirstPage() {
     </div>
     <div className="Articles-rendering" id="articles">
       {
-        getStatus()
+        //getStatus()
       }
     </div>
 

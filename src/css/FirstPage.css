@@ -47,9 +47,10 @@
 }
 .main-text {
   font-family: Righteous;
+  margin-bottom:15px;
   margin-top: 3%;
   margin-left: 23%;
-  
+  line-height:78px;
   animation: Maintextanimation 1s ease-in-out;
 
 }
@@ -65,12 +66,15 @@
   }
 }
 .description {
+  font-size: 14px;
+  font-weight: 500;
   margin-left: 23%;
   width: 400px;
   color: grey;
   text-align: left;
   font-family: Raleway;
   animation:btnanimation 1s ease-out;
+  line-height:28px;
 }
 .btn {
   cursor: pointer;
@@ -83,7 +87,7 @@
   font-family: Righteous;
   font-size: 17px;
   margin-left: 23%;
-  margin-top: 15px;
+  margin-top:20px;
   animation-name: btnanimation;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -102,7 +106,7 @@
 .main-image {
   position: absolute;
   top: 80px;
-  right: 30px;
+  right: 100px;
   animation: main_image 1s ease-in-out;
 
 }
@@ -111,10 +115,10 @@
     right:-30%;
   }
   50%{
-    right:80px;
+    right:120px;
   }
   100%{
-    right:30px;
+    right:100px;
   }
 }
 .main-image-girl {
@@ -172,12 +176,17 @@
     margin: 60px;
     margin-bottom: 20px;
     animation: none!important;
+    
+    
   }
   .description {
+    
     margin-left: 60px;
     animation: none!important;
     width: 370px;
     font-size: 1.95vw;
+    
+    
   }
   .btn {
     margin-left: 60px;
@@ -212,10 +221,11 @@
   }
   .main-text {
     margin: 60px;
+    line-height:16vw;
     margin-bottom: 10px;
   }
   .main-text-text1 {
-    font-size: 12vw;
+    font-size:12vw;
   }
   .main-text-text2 {
     font-size: 14vw;
