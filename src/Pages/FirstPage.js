@@ -119,7 +119,7 @@ function FirstPage() {
     </div>
     <div className="Articles-rendering" id="articles">
       {
-        //getStatus()
+        getStatus()
       }
     </div>
 
