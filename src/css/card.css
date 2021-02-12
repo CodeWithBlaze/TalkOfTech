@@ -19,7 +19,7 @@ a {
   background-repeat: no-repeat;
 }
 .title {
-  font-family: Raleway;
+  font-family: Montserrat;
   font-weight: bold;
   text-align: center;
   padding: 25px;
@@ -29,7 +29,7 @@ a {
 .content {
   color: #636c77;
   font-weight: 500;
-  font-family: "Alegreya";
+  font-family: Montserrat;
   text-align: center;
   line-break: auto;
   font-size: 15px;

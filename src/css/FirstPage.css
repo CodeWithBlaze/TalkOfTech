@@ -32,7 +32,8 @@
   right: 60px;
 }
 .naviagation-list {
-  font-family: Raleway;
+  font-family:Montserrat;
+  font-weight:500;
   margin: 30px;
   cursor: pointer;
 }
@@ -69,12 +70,13 @@
   font-size: 14px;
   font-weight: 500;
   margin-left: 23%;
-  width: 400px;
+  max-width: 44ch;
+
   color: grey;
   text-align: left;
-  font-family: Raleway;
+  font-family:Montserrat;
   animation:btnanimation 1s ease-out;
-  line-height:28px;
+  line-height:23px;
 }
 .btn {
   cursor: pointer;
