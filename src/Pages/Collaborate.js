@@ -16,7 +16,7 @@ const handleEmail = async (email, checkBox) => {
         from_name: "talkoftech.collab@gmail.com",
         to_name: email,
         subject: "TalkOfTech Collaboration",
-        message: "Hello, it’s Sagnik,admin of TalkOfTech.I will get back to you ASAP but feel free to check out our website and service info talkoftech.netlify.app. Thank you!",
+        my_html: "Hello, it’s Sagnik,admin of TalkOfTech. Check this link out <a href="https://developerstalkoftech.netlify.app/">Join us</a>"
     }
 
     emailjs.send(
